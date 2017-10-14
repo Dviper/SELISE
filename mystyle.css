@@ -1,0 +1,37 @@
+#navigation_links{
+   float: right;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 48px;
+   color: rgb(159, 159, 159);
+   padding-bottom: 20px;
+}
+a:link {
+    background-color: none;
+    text-decoration: none;
+    color: rgb(159, 159, 159);
+}
+
+a:visited {
+    background-color: none;
+    text-decoration: none;
+    color: 
+}
+
+a:hover {  
+    border-bottom: 2px solid rgb(80, 148, 242);
+    color: rgb(159, 159, 159);
+}
+
+a:active {
+    background-color: none;
+    text-decoration: none;
+    color: rgb(159, 159, 159);
+}
+
+#menu_bar{
+    max-width: 100%;
+}
+
+#logo{
+    font-size:24px;
+}

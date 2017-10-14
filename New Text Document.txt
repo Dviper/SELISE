@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Prechu</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__logo">
+				<a href="">
+					<img src="img/logo.png" alt="Prechu">
+				</a>
+			</div>
+			<nav class="nav">
+				<a class="nav__item" href="#">Home</a>
+				<a class="nav__item" href="#">Prosucts</a>
+				<a class="nav__item" href="#">Services</a>
+				<a class="nav__item" href="#">Contact</a>
+			</nav>
+		</header>
+		
+		<div class="slider">
+			<img class="slider__img" src="img/slider.jpg" alt="">
+			<div class="slider__title">
+				<span>
+					Lorem Ipsum is simply 
+				</span>
+				<p>
+					dummy text of the 
+					printing & typesetting 
+				</p>
+				<a href="#">
+					Sign up now
+				</a>
+			</div>
+		</div>
+		
+		<div class="features">
+			<div class="features__item">
+				<div class="features__img"></div>
+				<span>Contrary to popular</span>
+				<p>
+					Lorem Ipsum is not simply random text. 
+					It has roots in a piece 
+				</p>
+			</div>
+			
+			<div class="features__item">
+				<div class="features__img features__img-2 "></div>
+				<span>Contrary to popular</span>
+				<p>
+					Lorem Ipsum is not simply random text. 
+					It has roots in a piece 
+				</p>
+			</div>
+			
+			<div class="features__item">
+				<div class="features__img features__img-3"></div>
+				<span>Contrary to popular</span>
+				<p>
+					Lorem Ipsum is not simply random text. 
+					It has roots in a piece 
+				</p>
+			</div>
+		</div>
+		
+		<div class="basket">
+			<div class="basket__img">
+				<p class="basket__title">
+					The Shopping cart
+				</p>
+				<img src="img/basket.jpg" alt="">
+			</div>
+			
+			<div class="basket__description">
+				<p class="basket__description__title">
+					Some Bullet text here
+				</p>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting 
+					Lorem Ipsum has been the industry's standard dummy text ever 
+					When an unknown printer took a galley of type and scrambled 
+					It to make a type specimen book. It has survived not only five centuries
+					But also the leap into electronic typesetting,
+					Remaining essentially unchanged. It was popularised 
+					The release of Letraset sheets containing Lorem Ipsum passages
+				</p>
+			</div>
+		</div>
+		
+		<footer>
+			<p>
+				Copyright &copy; 2012-2013 cssauthor.com
+			</p>
+		</footer>
+	</body>
+</html>
