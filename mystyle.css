@@ -1,37 +1,169 @@
-#navigation_links{
-   float: right;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 48px;
-   color: rgb(159, 159, 159);
-   padding-bottom: 20px;
-}
-a:link {
-    background-color: none;
-    text-decoration: none;
+.navigation_links{
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
     color: rgb(159, 159, 159);
-}
+    padding-top: 10px;
+ 
+ }
+ 
+ .navigation_items{
+  margin-left: 20px;
+ }
+ 
+ a:link , a:visited, a:active{
+     background-color: none;
+     text-decoration: none;
+     color: rgb(159, 159, 159);
+ }
+ 
+ 
+ 
+ a:hover {  
+     border-bottom: 3px solid rgb(80, 148, 242);
+     color: rgb(159, 159, 159);
+ }
+ 
+ 
+ 
+ #menu_bar{
+     max-width: 100%;
+ }
+ 
+ .header_logo{
+    float: left;
+ }
+ 
+ .slider_img{
+     max-width: 100%;
+     background-size:cover;
+     height: auto;
+ }
+ 
+ #item1{
+     font-size: 200px;
+     color: white;
+     text-align: center;
+     padding: 27px;
+ }
+ 
+ #item2{
+     font-size: 200px;
+     color: white;
+     text-align: center;
+     padding: 27px;
+ }
+ 
+ #item3{
+     font-size: 200px;
+     color: white;
+     text-align: center;
+     padding: 27px;
+ }
+ 
+ .item_div1{
+     border-radius: 50%;
+     background-color: rgb(80, 148, 242);
+     margin-left: 189px;
+     margin-top: 20px;
+     width: 255px;
+     height: 255px;
+ 
+ }
+ 
+ .item_div2{
+     border-radius: 50%;
+     background-color: rgb(216, 71, 72);
+     margin-left: 189px;
+     margin-top: 20px;
+     width: 255px;
+     height: 255px;
+ }
+ 
+ .item_div3{
+     border-radius: 50%;
+     background-color: rgb(235, 187, 17);
+     margin-left: 189px;
+     margin-top: 20px;
+     width: 255px;
+     height: 255px;
+ }
+ .features_item1{
+     float: left;
+     width: 33.3%;
+ }
+ 
+ .features_item2{
+     float: left;
+     width: 33.4%;
+ }
+ .features_item3{
+     float: left;
+     width: 33.3%;
+     clear: right;
+ }
+ 
+ .item_heading{
+     color: rgb(80, 148, 242);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+     margin: 20px;
+     font-weight: bold;
+ }
+ 
+ .item_text{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+     margin: 20px;
+     font-weight: bold;
+     color: rgb(159, 159, 159);
+ }
+ .slider{
+     margin-bottom: 50px;
+ }
 
-a:visited {
-    background-color: none;
-    text-decoration: none;
-    color: 
-}
-
-a:hover {  
-    border-bottom: 2px solid rgb(80, 148, 242);
+ .silder_text{
+    position: absolute;
+    right: 280px;
+    top: 200px;
     color: rgb(159, 159, 159);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
-a:active {
-    background-color: none;
-    text-decoration: none;
+
+ .basket_img{
+     float: left;
+     width: 30%;
+     padding-left: 380px;
+     padding-top: 90px;
+     margin-bottom: 100px;
+ }
+ 
+ .basket{
+     display: inline-block;
+     width: 100%;
+ }
+ 
+ .basket_title{
+     color: rgb(159, 159, 159);
+     padding-left: 110px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .basket_description{
+    float: left;
+    width: 30%;
+    padding-top: 50px;
     color: rgb(159, 159, 159);
-}
-
-#menu_bar{
-    max-width: 100%;
-}
-
-#logo{
-    font-size:24px;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .basket_description_title{
+     font-weight: bold;
+    
+ }
+ 
+ footer{
+     border-top: 2px solid rgb(159, 159, 159);
+ }
